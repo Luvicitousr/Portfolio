@@ -1,0 +1,194 @@
+body{
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+#logo{
+  max-height:42px;
+  margin-right:10px;
+  margin-top:-3px;
+  display:inline-block;
+}
+
+#promo{
+  text-align:center;
+  padding:40px;
+  background:url(../../assets/img/background.jpg) no-repeat;
+  background-size:cover;
+  margin-top:65px;
+}
+
+@media (max-width:991px) {
+  #promo{
+    padding:20px;
+  }
+}
+
+#promo .jumbotron{
+  border-radius:20px;
+  padding:40px;
+  background-color:rgba(0,0,0,0.75);
+  max-width:800px;
+  margin:auto;
+}
+
+@media (max-width:991px) {
+  #promo .jumbotron{
+    padding:20px;
+  }
+}
+
+.dark-section{
+  background-color:#f0080c;
+}
+
+.site-section{
+  text-align:center;
+  padding-bottom:70px;
+}
+
+.site-section h1{
+  font-weight:normal;
+  margin-bottom:30px;
+  margin-top:60px;
+}
+
+#welcome p{
+  max-width:800px;
+  font-size:20px;
+  margin:0 auto;
+  color:#777;
+}
+
+#why .item{
+  padding-top:36px;
+}
+
+#why .item span{
+  font-size:42px;
+  color:rgb(255,90,255);
+}
+
+#why .item h2{
+  font-weight:normal;
+  margin-top:13px;
+  margin-bottom:20px;
+  font-size:24px;
+}
+
+#why .item p{
+  color:#70878b;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus{
+  background-color:rgb(255,255,241);
+  border-color:transparent;
+}
+
+footer{
+  background-color:#3a3d30;
+  box-shadow:0 1px 1px 0 rgba(1, 1, 1, 0.12);
+  box-sizing:border-box;
+  width:100%;
+  text-align:left;
+  font:bold 16px sans-serif;
+  padding:55px 0;
+  bottom:0;
+  color:#000;
+}
+
+.footer-navigation h3{
+  margin:0;
+  font:normal 36px Cookie, cursive;
+  margin-bottom:20px;
+  color:#000;
+}
+
+.footer-navigation h3 a{
+  text-decoration:none;
+  color:#a3aaa0;
+}
+
+.footer-navigation p.links a{
+  color:#000;
+  text-decoration:none;
+}
+
+.footer-navigation p.company-name{
+  color:#90a3a7;
+  font-size:14px;
+  font-weight:normal;
+  margin-top:20px;
+}
+
+@media (max-width:767px) {
+  .footer-contacts{
+    margin:30px 0;
+  }
+}
+
+.footer-contacts p{
+  display:inline-block;
+  color:#000000;
+  vertical-align:middle;
+}
+
+.footer-contacts p a{
+  color:#6494e4;
+  text-decoration:none;
+}
+
+.fa.footer-contacts-icon{
+  background-color:#fff;
+  color:#297fca;
+  font-size:18px;
+  width:38px;
+  height:13px;
+  border-radius:50%;
+  text-align:center;
+  margin:10px 15px 10px 0;
+}
+
+span.new-line-span{
+  display:block;
+  font-weight:normal;
+  display:block;
+  font-weight:normal;
+  font-size:14px;
+  line-height:2;
+}
+
+.footer-about h4{
+  display:block;
+  color:#000;
+  font-weight:bold;
+  margin-bottom:20px;
+}
+
+.footer-about p{
+  line-height:20px;
+  color:#a3aaa0;
+  font-size:13px;
+  font-weight:normal;
+  margin:0;
+}
+
+div.social-links{
+  margin-top:20px;
+  color:#000;
+}
+
+.social-links a{
+  display:inline-block;
+  width:35px;
+  height:35px;
+  cursor:pointer;
+  background-color:#fff;
+  border-radius:2px;
+  font-size:20px;
+  color:#297fca;
+  text-align:center;
+  line-height:35px;
+  margin-right:5px;
+  margin-bottom:5px;
+}
+
